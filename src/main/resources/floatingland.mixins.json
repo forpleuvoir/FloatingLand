@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.bakamc.floatingland.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinBackTankUtil",
+    "MixinCopperArmorItem",
+    "MixinItem"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

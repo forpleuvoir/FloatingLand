@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "floatingland",
+  "version": "${version}",
+  "name": "Floating Land",
+  "description": "BakaMC浮空岛mod",
+  "authors": [
+	"forpleuvoir"
+  ],
+  "contact": {
+	"website": "https://www.bakamc.cn"
+  },
+  "license": "MIT",
+  "icon": "assets/floatingland/icon.png",
+  "environment": "*",
+  "entrypoints": {
+	"client": [
+	  {
+		"adapter": "kotlin",
+		"value": "org.bakamc.floatingland.client.FloatingLandClient"
+	  }
+	],
+	"main": [
+	  {
+		"adapter": "kotlin",
+		"value": "org.bakamc.floatingland.FloatingLand"
+	  }
+	]
+  },
+  "mixins": [
+	"floatingland.mixins.json"
+  ],
+  "depends": {
+	"fabricloader": ">=0.13.3",
+	"fabric": "*",
+	"minecraft": "1.18.x",
+	"fabric-language-kotlin": ">=1.7.2+kotlin.1.6.20",
+	"trinkets": ">=3.1.0",
+	"create": "mc1.18.2_v0.4.1+557"
+  }
+}

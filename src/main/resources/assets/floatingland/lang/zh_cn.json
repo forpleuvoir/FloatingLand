@@ -1,0 +1,10 @@
+{
+  "curios.identifier.floatingland.copper_backtank_slot": "背罐插槽",
+  "curios.identifier.floatingland.goggle_slot": "护目镜插槽",
+  "curios.identifier.floatingland.diving_helmet_slot": "潜水头盔插槽",
+  "curios.identifier.floatingland.core_slot": "核心插槽",
+  "floatingland.create.copper_backtank.air": "剩余空气[%d/%d]",
+  "#baka#item": "物品",
+  "itemGroup.floatingland": "⑨",
+  "item.floatingland.baka": "⑨"
+}
